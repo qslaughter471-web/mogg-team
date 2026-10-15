@@ -2,7 +2,7 @@ import os, json, re, time, urllib.request, urllib.parse
 KEY = os.environ.get("FACEIT_KEY", "")
 if not KEY:
     raise SystemExit("FACEIT_KEY не задан")
-PLAYERS = ["flovwyyy", "slaughter471", "kaworuque666", "hydr0ponica", "limsss-_-"]
+PLAYERS = ["flovwyyy", "slaughter471", "-kaworuque", "hydr0ponica", "limsss-_-"]
 FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html")
 
 def api(path):
